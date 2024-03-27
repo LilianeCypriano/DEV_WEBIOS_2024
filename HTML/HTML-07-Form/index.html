@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+    <!--Formulário-->
+    <!--Input= Marcação Unica
+        Label
+        Strong = Negrito
+        Radio = Para bolinha-->
+
+    <h2> Pacote de Viagem</h2>
+ 
+    <form action="./inscricao.html">
+        <fieldset>
+            <legend>Informação sobre usuario</legend>
+            <label><strong>Nome:</strong></label><br>
+            <input type="text"> <br><br>
+              <label> Idade:</label><br>
+            <input type="number"> <br><br>
+              <label> E-mail:</label><br>
+            <input type="text"><br><br>
+              <label> Telefone:</label><br>
+            <input type="number"><br><br>
+        </fieldset>
+       
+         
+     <!--Checkbox= Quadrado=Seleciona mais de uma opção-->
+     <!-- Radio= bolinha = só uma opção-->
+     <!--Input : - vai o comando-->
+
+      <input type="radio" name="ida">
+      <label> Ida e volta</label> <br><br>
+
+      <input type="radio" name="ida"> 
+      <label> Somente Ida</label>
+
+      <h3> Quais Serviços deseja contratar</h3>
+      
+      <input type="Checkbox">
+      <label> Compra de Passagem</label>
+      <input type="Checkbox">
+      <label>Reserva de Hospedagem</label>
+      <input type="Checkbox">
+      <label>Reserva de veiculos</label>
+
+      <h3>Quantidade de crianças</h3>
+      1
+      <input type="range">     
+     10
+     <br><br>
+
+     <select> 
+        <option value=""></option>
+        <option value="Gru-Guarulho">Gru-Guarulho</option>
+        <option value="Congonhas">Congonhas</option>
+        <option value="Santos Dumont">Santos Dumont</option>
+        <option value="Aeroporto Internacional de Viracopos">Aeroporto Internacional de Viracopos</option>
+        <option value="Aeroporto do Campo de Marte">Aeroporto do Campo de Marte</option>
+     </select>
+
+     <input type="text" list="Cidades">
+     <datalist id="Cidades">
+        <option value="São Paulo"></option>
+        <option value="Amapá"></option>
+        <option value="Tocatins"></option>
+        <option value="Sergipe"></option>
+        <option value="Rio de Janeiro"></option>
+        <option value="Rio Grande do Sul"></option>
+        <option value="Rio Grande do Norte"></option>
+        <option value="Bahia"></option>
+        <option value="Paraíba"></option>
+        <option value="Roraima"></option>
+        <option value="Amazonas"></option>
+     </datalist>
+
+     <!--Cols = colunas
+       Row= Linhas-->
+     <label>
+        Deixa sua Observação
+     </label><br><br>
+     <textarea cols="30" rows="10"></textarea>
+
+     <!--Fildset = organizar
+        legend= -->
+        <!--Teclar enviar = comando
+        value= altera a a descrição enviar
+        Action = envia para banco de dado, ou pagina na web-->
+
+        <!--Modelos de botões-->
+        <input type="submit" value="Inscrição"><br><br>
+
+        <input type="password">
+        <input type="month">
+        <input type="color">
+        <input type="file">
+
+    
+    </form>
+    </body>
+</html>
