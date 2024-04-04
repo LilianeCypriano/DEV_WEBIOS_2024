@@ -1,0 +1,22 @@
+/* Aqui tem um Comentário (Comentário em bloco) 
+0 - Ausencia da cor / 255 Maxima da cor
+0-  Ausencia da cor / F Maxima da cor 
+site - paleta de cores 
+fonts.google = fontes de letras*/
+
+body{background-color: rgb(90, 87, 87);
+    font-family: "Roboto", sans-serif;
+    font-size:20px;
+    }
+    p{
+        font-family: "Roboto", sans-serif;
+    font-size:1rem;
+    }
+    /* Paragrafo 26 ou 36
+    texto 16
+    usar medida relativa , não px
+    ex:2rem 9Dobro de 16 (Padrão)*/
+    img{height: 200px;
+        width: 400px;}
+
+ 
