@@ -8,14 +8,26 @@ body{background-color: rgb(90, 87, 87);
     font-family: "Roboto", sans-serif;
     font-size:20px;
     }
+    h1{
+        text-shadow: 1px 1px rgb(158, 79, 79);
+    }
+    /* horizontal vertyical raio cor 
+    serve para imagem tbm */
     p{
         font-family: "Roboto", sans-serif;
     font-size:1rem;
+
     }
-    /* Paragrafo 26 ou 36
+    /* 
+       Espessura da fnte = comando font-weight
+       Font-style: Intalic
+    Paragrafo 26 ou 36
     texto 16
     usar medida relativa , não px
-    ex:2rem 9Dobro de 16 (Padrão)*/
+    ex:2rem 9Dobro de 16 (Padrão)
+    
+    rem é perto do pai mais proximo
+    em é root que sempre é body*/
     img{height: 200px;
         width: 400px;}
 
