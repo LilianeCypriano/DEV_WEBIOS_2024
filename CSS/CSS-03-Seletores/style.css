@@ -1,5 +1,16 @@
+/*O * é u, seletor pai = o que for aplicado nele , será aplicado na pagina web inteira. inclusive na tag body*/
+*{
+    margin:0;
+}
 .corazul{color: blueviolet;
 
 }
+#mudançadecor{ color: brown;}
+
+/*text-indent:50px* Espaçamento do primeiro paragrafo e os diantes não*/
+
 /* paragrafo com cor diferente, não mesma cor para um só (class = nome aos paragrafos, indetifica no paragrafo no html)
-não dá mesmo nome nos paragrafo */
+não dá mesmo nome nos paragrafo 
+
+. para class= mais de um elemento (mesmo nome)
+# para id = só para um elemento (não repete nome)*/

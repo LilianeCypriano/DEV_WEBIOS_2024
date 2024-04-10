@@ -1,0 +1,24 @@
+*{
+    margin:0;
+}
+body{
+    background-image: url("https://picsum.photos/id/235/600/400");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    /* backgrpund-possition:cente = Imgem Centralizada*/
+}
+#PrimeiroParagrafo{ 
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+#imagem{
+    border: 5px solid  cornflowerblue;
+    border-radius: 10;
+}
+/*To Right, bottom e left
+Arredondamento das bordas comando radio*/
+/*Outside= duas cores*/
