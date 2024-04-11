@@ -8,6 +8,9 @@ body{
     background-attachment: fixed;
     /* backgrpund-possition:cente = Imgem Centralizada*/
 }
+/* margin-left:auto
+margin-right:auto
+with 80%*/
 #PrimeiroParagrafo{ 
     border-color: blueviolet;
     border-width: 2px;
