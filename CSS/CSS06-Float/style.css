@@ -1,3 +1,16 @@
 img{
- float: left;   
+ 
+ width: 400px;
+}
+
+#paragrafo{
+    float: left;   
+    width: 400px;
+    clear:left
+}
+/* Float= move a imagem para esquerda e direita
+ clear =left  ele limpa a direita e a imagem fica a esquerda */
+#paragrafo1{
+    float: left;   
+ left: 400px;
 }
