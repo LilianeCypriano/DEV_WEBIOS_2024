@@ -1,3 +1,42 @@
 p:first-child{
     background-color: aqua;  
 }
+/* Somente o primeiro paragrafo*/
+
+p:nth-child(2){
+    background-color: aquamarine;
+}
+
+/* em () coloca o aragrafo que quer subir*/
+
+#botao{
+    border: 1px solid rgb(229, 224, 230);
+    background: rgb(211, 116, 211);
+    border-radius: 5px;
+}
+
+#botao:hover{
+  color: azure;
+  background-color: rgb(100, 144, 228);
+  font-size: 50px;
+}
+
+#paragrafohover:hover{
+    color: azure;
+    background-color: aquamarine;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    font-size: 50px;
+}
+#titulo2:hover{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#imagem:hover{
+    box-shadow: 10px 10px 10px
+    cornflowerblue;
+    width: 700px;
+    height: 700px;
+}
