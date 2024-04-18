@@ -40,3 +40,6 @@ p:nth-child(2){
     width: 700px;
     height: 700px;
 }
+#pseudo::before{
+ content: 'utilizando before - ';
+}
