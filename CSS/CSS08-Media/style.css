@@ -1,3 +1,34 @@
 img{
     width: 700px;
 }
+/*Quando a largura da tela for de 450px a imagens terão uma largura de 200px*/
+
+/*Enquanto a largura minima for de 450px a largura das imagens serão de 200px
+min-width / max-width */
+
+@media(max-width:450px){
+    img{
+      width: 200px;
+    }
+}
+
+img:hover{
+  border:1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+}
+
+body{
+  background-color: aquamarine;
+}
+@media(min-width:452){
+    img{
+      width:250px;
+    }
+  }
+
+  img:hover{
+    border:1px solid rgb(203, 146, 214);
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(192, 138, 194);
+  }
