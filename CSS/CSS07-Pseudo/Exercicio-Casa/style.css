@@ -86,11 +86,15 @@
     }
     
     .video{
-        display: table;
+        display: flex;
         float: left;
         background-color: #c1c2bc;
     }
-    
+
+    .video{
+    align-content:flex-start;
+    }
+
     .imagem1{
         display: table;
         float: left;
