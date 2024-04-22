@@ -1,0 +1,295 @@
+*{
+    margin-top: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    background-color: #c1c2bc;
+    }
+    
+    @media screen and (max-width: 1020pix){
+    }
+    
+    header{
+    text-align: center;
+    height: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin-bottom: 20%;
+    }
+    
+    header{
+        background-image: url(1mikasa\ teste\ 7.jpg);
+        width: 93%;
+        margin: auto;
+        
+    }
+    
+    body{
+        background: url(fundo2.jpg);
+        margin: auto;
+    }
+    
+    #corpo{
+        background-color: #c1c2bc;
+        width: 990px;
+        padding: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 6%;
+    }
+    #corpo:hover{
+            box-shadow: 10px 10px 10px #725436;}
+    
+    .imagem1{
+        display: table;
+        float: left;
+        background-color: #c1c2bc;
+        align-items: center;
+    }
+     
+    .conteudo1{
+        width: 900px;
+        height: 15pix;
+        text-align: justify;
+        background-color: #c1c2bc;
+        padding: 2em;
+    }
+    
+    .botao1{
+     float: right;
+     width: 300pix;
+     height: 100pix;
+     background-color:#533618;
+    }
+    .saibamais1{
+        background-color: #533618;
+        color: #c1c2bc;
+    }
+    .saibamais1:hover{
+        background-color: #533618;
+        font-size: 15px;
+        color: #c1c2bc;
+    }
+    
+    #corpo1{
+        background-color: #c1c2bc;
+        width: 800px;
+        height: 40%;
+        padding: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        margin-top: 32pix;
+        margin-bottom: 7%;
+        margin-left: 15%;
+    }
+    
+    .video{
+        display: table;
+        float: left;
+        background-color: #c1c2bc;
+    }
+    
+    .imagem1{
+        display: table;
+        float: left;
+        background-color: #c1c2bc;
+        align-items: center;
+    }
+    
+    .conteudo2{
+        display: table;
+        display: block;
+        width: 790px;
+        height: 900pix;
+        text-align: justify;
+        align-items: center;
+        background-color: #c1c2bc;
+        margin: auto;
+       
+    }
+    
+    .corpo2{
+        background-color: #c1c2bc;
+        width: 380px;
+        padding: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex;
+        float: left;
+    }
+    
+    .botao2{
+        float: right;
+        width: 300pix;
+        height: 100pix;
+        background-color: #533618;
+       }
+    
+    .saibamais2{
+        background-color: #533618;
+        color: #c1c2bc;
+    }
+    
+    .saibamais2:hover{
+           background-color:#533618;
+           font-size: 15px;
+           color: #c1c2bc;
+       }
+    
+    .corpo3{
+        background-color: #c1c2bc;
+        width: 430px;
+        height: 350pix;
+        padding: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+    }
+    .conteudo3{
+        display: table-cell;
+        float: right;
+        width: 200px;
+        height: 400pix;
+        text-align: justify;
+        align-items: center;
+        background-color: #c1c2bc;
+        margin: auto;
+    }
+    
+    .botao3{
+        float: right;
+        width: 300pix;
+        height: 100pix;
+        background-color: #533618;
+       }
+       
+    .saibamais3{
+        background-color: #533618;
+        color: #c1c2bc;
+    }
+    .saibamais3:hover{
+           background-color: #533618;
+           font-size: 15px;
+           color: #c1c2bc;
+    }
+    
+    .corpo4{
+        background-color: #c1c2bc;
+        width: 380px;
+        height: 400pix;
+        padding: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline-flex;
+        float: left;
+    }
+    
+    .conteudo4{
+    
+        float: right;
+        width: 250px;
+        height: 400pix;
+        text-align: justify;
+        align-items: center;
+        background-color: #c1c2bc;
+        margin: auto;
+    }
+    
+    .botao4{
+        float: right;
+        width: 300pix;
+        height: 100pix;
+        background-color: #533618;
+    }
+    
+    .saibamais4{
+    background-color: #533618;
+    color: #c1c2bc;
+    }
+    
+    .saibamais4:hover{
+           background-color: #533618;
+           font-size: 15px;
+           color: #c1c2bc;
+    }
+    
+    .corpo5{
+        background-color: #c1c2bc;
+        width: 500px;
+        height: 400pix;
+        padding: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        display: flex;
+    }
+    
+    .conteudo5{
+        display: table-cell;
+        float: right;
+        width: 200px;
+        height: 400pix;
+        text-align: justify;
+        align-items: center;
+        background-color: #c1c2bc;
+        margin: auto;
+    }
+    
+    .conteudo6{
+        display: table-cell;
+        float: right;
+        width: 200px;
+        height: 400pix;
+        text-align: justify;
+        align-items: center;
+        background-color: #c1c2bc;
+        margin: auto;  
+    }
+    
+    .botao5{
+        float: right;
+        width: 300pix;
+        height: 100pix;
+        background-color: #533618;
+    }
+    
+    .saibamais5{
+            background-color: #533618;
+            color: #c1c2bc;
+    }
+    
+    .saibamais5:hover{
+           background-color:#533618;
+           font-size: 15px;
+           color: #c1c2bc;
+    }
+       
+    .T1{color: #533618;    
+    }
+    
+    .titulo{
+        color: #533618;
+        height: 70%;
+    }
+    
+    .curiosidade{
+    display: block;
+    margin: 32pix;
+    }
+    .curiosidade::after{
+        content: "2024 | Todos os direitos reservados | Liliane Cypriano ";
+        text-align: center;
+        width:1000px;
+        height: 4px;
+        background-color: #725436;
+        display: block;
+        height: 70%;  
+        margin: auto; 
+    }
+    
+    
+    
+    
+        
+    
+    
+    
+    
