@@ -1,0 +1,10 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+}
+
+.itens{
+    border: 1px solid black;
+}
+/*grid-templatescolums=colunas (colocar a largura a medida que quer e a quantidade)/ gird-template-rows=linhas*/
+
