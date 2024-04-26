@@ -1,10 +1,48 @@
-#container{
+/* #container{
     display: grid;
     grid-template-columns: repeat(9, 50px);
-}
+} */
 
-.itens{
-    border: 1px solid black;
-}
+/*Largura francionada, largura total da tel= cod. fr (9,1fr)*/
+
+/* .itens{
+    border: 1px solid black; */
+/* } */
 /*grid-templatescolums=colunas (colocar a largura a medida que quer e a quantidade)/ gird-template-rows=linhas*/
 
+/* .itens{  /* width: 50%; */
+    /* height: 50%;
+    border: solid 1px black;
+   */ 
+    /* text-align: center;
+} */
+
+#item-1{
+    grid-area: header;
+} 
+
+#item-2{
+    grid-area: main;
+}
+
+#item-3{
+    grid-area:sidebar;
+}
+
+#item-4{
+    grid-area: footer;
+}
+
+#container{
+    display: grid;
+    /* grid-template-columns:repeat(4, 1fr); */
+    /* grid-template-columns: 10% 25px 2rem 2em; */
+    /* reapet (4 ,2fr) fr fracionar*/
+    /* grid-template-rows: repeat(3, 50px); */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "header header header header" "main main.sidebar" "footer footer footer footer";
+    column-gap: 10px;
+    row-gap: 10px;
+    /* justify-items: stretch;
+    align-items: stretch; */
+}
