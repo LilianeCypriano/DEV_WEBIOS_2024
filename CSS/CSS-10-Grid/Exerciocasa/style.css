@@ -1,0 +1,51 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(6, 50%);
+    grid-template-areas: "header1 header1 header2 header2"
+    "main1 main1 main1 main1"
+    "main2 main2 main2 main2"
+    ".main3 main3."
+    "main4 main4 main4 main4"
+    "footer1 footer1 footer2 footer3";
+}
+
+.itens{
+border: 1px solid black;
+text-align: center;
+}
+
+#item-1{
+grid-area: header1;
+}
+
+#item-2{
+grid-area: header2;
+}
+
+#item-3{
+grid-area: main1;
+}
+
+#item-4{
+grid-area: main2;}
+
+#item-5{
+grid-area: main3;
+}
+
+#item-6{
+grid-area: main4;
+}
+
+#item-7{
+grid-area: footer1;
+}
+
+#item-8{
+grid-area: footer2;
+}
+
+#item-9{
+grid-area: footer3;
+}
