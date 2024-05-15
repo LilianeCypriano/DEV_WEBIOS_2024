@@ -56,7 +56,16 @@ console.log(str.substring(3))
 console.clear
 
 var texto6 = "Olha a pipoca"
-console.log(texto6.replace(`pipoca`, `Carreta Furacão`), )
+console.log(texto6.replace(`pipoca`, `Carreta Furacão`) )
+
+console.clear()
+
+var texto7 = "    Olha Carreta    "
+
+console.log(texto7)
+console.log(texto7.trim())
+
+// usado para tirar  espaço em branco no inicio e no fim 
 
 
 
