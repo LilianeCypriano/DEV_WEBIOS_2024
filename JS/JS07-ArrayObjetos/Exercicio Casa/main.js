@@ -38,3 +38,6 @@ let objetos = [
 ] 
 
 console.log(objetos)
+console.log(objetos [1])
+console.log(objetos [5].nota)
+console.log(JSON.stringify(objetos))
