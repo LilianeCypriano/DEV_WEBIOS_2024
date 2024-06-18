@@ -9,7 +9,12 @@
 // STRINGFY -- Para transformar um JSON em Objeto
 
 let cep = document.querySelector('#cep');
-let message = document.querySelector('#erroMessage')
+let message = document.querySelector('#erroMessage');
+let rua = document.querySelector('#rua');
+let complemento = document.querySelector('#complemento');
+let bairro = document.querySelector('#bairro');
+let cidade = document.querySelector('#cidade');
+let estado = document.querySelector('#uf');
 
 cep, addEventListener('focusout', async () => {
     // sabemos que a api pode retonr sucesso e erro
@@ -35,6 +40,14 @@ cep, addEventListener('focusout', async () => {
        
        console.log(response)
        cep.value = response.cep;
+       rua.value = response.logradouro;
+       complemento.value = response.complemento;
+       bairro.value = response.bairro;
+       cidade.value = response.localidade;
+       estado.value = response.uf;
+       
+
+
 
 
 
